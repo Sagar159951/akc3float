@@ -7,6 +7,7 @@ h1{
     text-align: center;
     color: red;
     background-color: bisque;
+    /* overflow: hidden; */
 }
 
 #boxl{
@@ -34,4 +35,9 @@ h1{
 }
 .cl{
     clear:both;
+}
+@media screen and (max-width : 800px) {
+    .sp{
+        align-self: center;
+    }
 }
